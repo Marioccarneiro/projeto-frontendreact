@@ -7,8 +7,13 @@ import Items from './Components/Items/Items'
 import ProductCard from './Components/ProductCard/ProductCard'
 import { ContainerApp, ContainerHomeCart } from './AppStyle'
 import { ContainerItems } from './Components/Items/ItemsStyle'
+import productList from './assets/ProductList'
 
 function App() {
+  
+  // const [productsFiltered, setProductsFiltered] = useState(productsList)
+  
+  
   return (
     <>
 
@@ -18,7 +23,9 @@ function App() {
              
         <Filters />
         
-        <Home />
+        <Home>
+          
+        </Home> 
 
         <Cart />
         
@@ -32,6 +39,4 @@ export default App
 
 // faltando
 
-{/* <Filters />
-              
-<ProductCard /> */}
+// {<ProductCard /> }
