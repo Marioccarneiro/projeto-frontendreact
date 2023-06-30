@@ -7,11 +7,11 @@ export const ContainerHome = styled.styled.div`
   //
   display: block;
   flex-direction: row;
-  background:lightblue ;
-  width: 80%;
+  background:orange ;
+  /* width: 80%;
   margin-top: 1%;
   margin-bottom: 1%;
-  height:96%;
+  height:96%; */
 
   `
 export const ContainerHomeUpper = styled.styled.div`
@@ -22,7 +22,7 @@ export const ContainerHomeUpper = styled.styled.div`
   border: solid 2px;
   text-align: center;
   justify-content: space-between;
-  background: gray;
+  /* background: white; */
 
   .Product-Quantity{
     margin-left: 5%;
@@ -54,4 +54,19 @@ export const ContainerHomeLower = styled.styled.div`
     /* border-width: thin; */
 
 `
+
+//TESTE
+
+export const P = styled.styled.p`
+    margin:2vw; 
+    width:50%;
+    display: block;
+`;
+
+export const Select = styled.styled.select`
+    /* height: 3vh;
+    margin:2vw; 
+    width:50%; 
+    display: block; */
+`;
   

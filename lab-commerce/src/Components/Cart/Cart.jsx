@@ -2,20 +2,32 @@ import React from 'react'
 import Items from '../Items/Items'
 import { ContainerCart } from './CartStyle'
 
-function Cart() {
+function Cart({
+  amount,
+  setAmount,
+  cart,
+  setCart,
+  removeCart,
+  sumCart,
+  removeItemCart,
+  clearCart,
+  quantityItems,
+  setQuantityItems,
+}) {
   return (
     <ContainerCart>
-      <h1>
-        Cart
-      </h1>
-      <p>
-        Nome do Produto:
-        <button>Remover</button>
-      </p>
-      <p>
-        Valor Total:
-      </p>
-      
+      <Items
+                amount={amount}
+                setAmount={setAmount}
+                cart={cart}
+                setCart={setCart}
+                removeCart={removeCart}
+                sumCart={sumCart}
+                removeItemCart={removeItemCart}
+                clearCart={clearCart}
+                quantityItems={quantityItems}
+                setQuantityItems={setQuantityItems}
+            />
     </ContainerCart>
   )
 }

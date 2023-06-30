@@ -1,4 +1,4 @@
-export const productList = [
+export const productsList = [
         {
           id: 1,
           name: "produto 1",
@@ -36,5 +36,5 @@ export const productList = [
         //     imageUrl:"https://picsum.photos/300/335?a=6"
         // }
     ];
- 
-//  productList;
+
+// export default productsList;

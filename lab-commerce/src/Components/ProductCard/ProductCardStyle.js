@@ -31,8 +31,9 @@ export const ContainerSuperior = styled.styled.div`
     display: flex;
     flex-direction: row;
     border: solid 2px;
-    justify-content: space-between;
-    align-items: center;    
+    justify-content: flex-end;
+    align-items: start;
+    
 `;
 
 export const P = styled.styled.p`
