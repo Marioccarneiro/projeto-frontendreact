@@ -1,9 +1,7 @@
 import produto1 from '../assets/produto1.jpg'
 import produto2 from '../assets/produto2.jpg'
 import produto3 from '../assets/produto3.jpg'
-import produto4 from '../assets/produto4.jpg'
-import produto5 from '../assets/produto5.jpg'
-import produto6 from '../assets/produto6.jpg'
+
 
 export const productsList = [
         {
