@@ -6,17 +6,7 @@ import {productsList} from '../../assets/productsList'
 
 function ProductCard({
   productsOrdered,
-  ordination,
-  setOrdination,
-  amount,
-  setAmount,
-  cart,
-  setCart,
   addToCart,}) {
-  
-  // const handleChangeSelect = (event) => {
-  //     setOrdination(event.target.value);
-  // };
 
   let quantity = 1;
 

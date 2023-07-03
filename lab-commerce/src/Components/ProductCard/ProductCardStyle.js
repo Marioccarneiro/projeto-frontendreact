@@ -1,17 +1,12 @@
 import * as styled from 'styled-components';
 
 export const CardContainer = styled.styled.div`
-    /* height: 100vh; */
     display: flex;
     flex-direction: row;
     border: 2px solid;
-
-    `;
+`;
 
 export const Card = styled.styled.div`
-    /* border: solid 1.2px black;
-    align-items: center;
-    width:20vw; */
     border: 2px solid;
 `;
 
@@ -51,10 +46,6 @@ export const P = styled.styled.p`
 `;
 
 export const Select = styled.styled.select`
-    /* height: 3vh;
-    margin:2vw; 
-    width:50%; 
-    display: block; */
 `;
 
 export const ContainerInferior = styled.styled.div`

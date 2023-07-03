@@ -24,42 +24,4 @@ export const productsList = [
           value: 289,
           imageUrl: produto3
         },
-        // {
-        //   id: 4,
-        //   name: "Item 3",
-        //   value: 500.0,
-        //   imageUrl: produto4
-        // },
-        // {
-        //   id: 5,
-        //   name: "Item 3",
-        //   value: 500.0,
-        //   imageUrl: produto5
-        // },
-        // {
-        //   id: 6,
-        //   name: "Item 3",
-        //   value: 500.0,
-        //   imageUrl: produto6
-        // },
-        // {
-        //     id:4,
-        //     name:"Item 4",
-        //     value:10.0,
-        //     imageUrl:"https://picsum.photos/300/335?a=4"
-        // },
-        // {
-        //     id:4,
-        //     name:"Item 4",
-        //     value:10.0,
-        //     imageUrl:"https://picsum.photos/300/335?a=5"
-        // },
-        // {
-        //     id:4,
-        //     name:"Item 4",
-        //     value:10.0,
-        //     imageUrl:"https://picsum.photos/300/335?a=6"
-        // }
-    ];
-
-// export default productsList;
+    ]

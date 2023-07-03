@@ -1,14 +1,11 @@
 import * as styled from 'styled-components'
 
 export const ContainerHome = styled.styled.div`
-  // Divisória
-  /* margin: 1px; */
+
   border: solid 2px;
-  //
   display: block;
   flex-direction: row;
   background:lightblue ;
-  /* width: 80%; */
   margin-top: 1%;
   margin-bottom: 1%;
   height:96%;
@@ -17,14 +14,10 @@ export const ContainerHome = styled.styled.div`
   `
 export const ContainerHomeUpper = styled.styled.div`
 
-  /* height: 10vh; */
   display: flex;
   flex-direction: row;
   border: solid 1px;
-  /* text-align: center; */
   justify-content: space-between;
-  /* background: white; */
-  
 
   .Product-Quantity{
     margin-left: 5%;
@@ -61,10 +54,7 @@ export const P = styled.styled.p`
 `;
 
 export const Select = styled.styled.select`
-    /* height: 3vh;
-    margin:2vw; 
-    width:50%; 
-    display: block; */
+
     display: flex;
     width: 10vw;
     height: 5px;
