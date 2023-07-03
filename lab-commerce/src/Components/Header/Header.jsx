@@ -11,6 +11,9 @@ function Header() {
       <h1>  
       LabCommerce
       </h1>
+      <p>
+      "Explore o infinito da diversão! Sua loja espacial de brinquedos, onde a imaginação ganha asas!"
+      </p>
     </ContainerHeader>
     </>
   )

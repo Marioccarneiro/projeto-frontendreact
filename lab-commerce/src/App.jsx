@@ -3,14 +3,12 @@ import Cart from './Components/Cart/Cart'
 import Filters from './Components/Filters/Filters'
 import Header from './Components/Header/Header'
 import Home from './Components/Home/Home'
-import Items from './Components/Items/Items'
-import ProductCard from './Components/ProductCard/ProductCard'
 import { ContainerApp, ContainerHomeCart } from './AppStyle'
-import { ContainerItems } from './Components/Items/ItemsStyle'
 import { productsList } from './assets/productsList'
 
+
 function App() {
-  
+
 const [minFilter, setMinFilter] = useState('');
 const [maxFilter, setMaxFilter] = useState('');
 const [searchFilter, setSearchFilter] = useState('');
@@ -18,6 +16,7 @@ const [amount, setAmount] = useState('');
 const [cart, setCart] = useState([]);
 const [productsFiltered, setProductsFiltered] = useState(productsList);
 const [quantityItems, setQuantityItems] = useState('');
+
 
 useEffect(() => {
   const listaDoCarrinhoArmazenada = JSON.parse(
@@ -173,9 +172,8 @@ const handleClick = () => {
         handleMinFilterChanges={handleMinFilterChanges}
         handleMaxFilterChanges={handleMaxFilterChanges}
         ClearFilters={ClearFilters}quantityItems={quantityItems}
-        handleClick={handleClick}     
-        
-        />
+        handleClick={handleClick} />
+
         <ContainerHomeCart showComponent={showComponent}>
             <Home 
         
@@ -202,17 +200,7 @@ const handleClick = () => {
             setQuantityItems={setQuantityItems} />
         )}
         </ContainerHomeCart>
-        {/* <Cart
-            amount={amount}
-            setAmount={setAmount}
-            cart={cart}
-            setCart={setCart}
-            removeCart={removeCart}
-            sumCart={sumCart}
-            removeItemCart={removeItemCart}
-            clearCart={clearCart}
-            quantityItems={quantityItems}
-            setQuantityItems={setQuantityItems} /> */}
+
       </ContainerApp>
 
     </>
@@ -220,7 +208,3 @@ const handleClick = () => {
 }
 
 export default App
-
-// faltando
-
-// {<ProductCard /> }

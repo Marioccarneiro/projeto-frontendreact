@@ -2,27 +2,29 @@ import * as styled from 'styled-components'
 
 export const ContainerHome = styled.styled.div`
   // Divisória
-  margin: 2px;
+  /* margin: 1px; */
   border: solid 2px;
   //
   display: block;
   flex-direction: row;
-  background:orange ;
-  /* width: 80%;
+  background:lightblue ;
+  /* width: 80%; */
   margin-top: 1%;
   margin-bottom: 1%;
-  height:96%; */
-
+  height:96%;
+  margin-top: 1%;
+  
   `
 export const ContainerHomeUpper = styled.styled.div`
 
-  height: 10vh;
+  /* height: 10vh; */
   display: flex;
   flex-direction: row;
-  border: solid 2px;
-  text-align: center;
+  border: solid 1px;
+  /* text-align: center; */
   justify-content: space-between;
   /* background: white; */
+  
 
   .Product-Quantity{
     margin-left: 5%;
@@ -44,18 +46,13 @@ export const ContainerHomeUpper = styled.styled.div`
   justify-content: center;
       
   }
-      
   `
 export const ContainerHomeLower = styled.styled.div`
-    border: solid 2px;
+    border: solid 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border-width: thin; */
-
 `
-
-//TESTE
 
 export const P = styled.styled.p`
     margin:2vw; 
@@ -68,5 +65,10 @@ export const Select = styled.styled.select`
     margin:2vw; 
     width:50%; 
     display: block; */
+    display: flex;
+    width: 10vw;
+    height: 5px;
+    justify-content: center;
+    
 `;
   

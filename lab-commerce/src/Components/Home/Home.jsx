@@ -10,8 +10,6 @@ function Home({
   setCart,
   addToCart,
   productsFiltered,
-  // ordination,
-  // setOrdination
 }) {
 
   const [ordination, setOrdination] = useState('');
@@ -38,44 +36,25 @@ function Home({
         setOrdination(event.target.value);
     };
 
-
-  //TESTE
-  
-  
-
   return (
     <ContainerHome>
-     {/* <ProductCard /> */}
+
       <ContainerHomeUpper>
         
       <P>Produtos encontrados: {productsOrdered.length}</P>
-                <Select value={ordination} onChange={handleChangeSelect}>
-                    <option disabled value="">
+                <Select value={ordination} onChange={handleChangeSelect}> 
+                    <option disabled value=""> 
                         Selecione
                     </option>
                     <option>Crescente</option>
                     <option>Decrescente</option>
                 </Select>
 
-        {/* <h1 className='Product-Quantity'>Quantidade de Produtos:</h1>
-        <label className='Label-Order'>
-          Ordenar por:
-          <select>
-            <option value="">Selecione ordem</option>
-            <option value="">Crescente</option>
-            <option value="">Decrescente</option>
-          </select>
-        </label> */}
-
-        {/* <select>Ordenação</select> */}
-        
       </ContainerHomeUpper>
       
       <ContainerHomeLower>
-        <ProductCard
         
-        //TESTE
-
+        <ProductCard
         productsOrdered={productsOrdered}
         ordination={ordination}
         setOrdination={setOrdination}
@@ -84,7 +63,6 @@ function Home({
         cart={cart}
         setCart={setCart}
         addToCart={addToCart}
-
         />
 
       </ContainerHomeLower>

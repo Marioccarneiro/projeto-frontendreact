@@ -21,8 +21,14 @@ export const Img = styled.styled.img`
 `;
 
 export const Button = styled.styled.button`
+    background: black;
+    color: lightblue;
     display: grid;
+    align-items: center;
     justify-self: center;
+    cursor: pointer;
+    margin-bottom: 9%;
+    
 `;
 
 export const ContainerSuperior = styled.styled.div`
@@ -39,7 +45,9 @@ export const ContainerSuperior = styled.styled.div`
 export const P = styled.styled.p`
     margin:2vw; 
     width:50%;
-    display: block;
+    display: flex;
+    justify-content: center;
+
 `;
 
 export const Select = styled.styled.select`
@@ -56,6 +64,7 @@ export const ContainerInferior = styled.styled.div`
     border: solid 2px;
     justify-content: space-between;
     align-items: center;  
-    background: black;
+    background: lightblue;
+    color: black;
 
 `

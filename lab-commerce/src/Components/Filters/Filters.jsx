@@ -9,26 +9,16 @@ function Filters({
   maxFilter,
   setMaxFilter,
   searchFilter,
-  setSearchFilter,
-  productsList,
-  productsFiltered,
-  setProductsFiltered,
-  treatmentNegativeNumber,
   handleSearchFilterChanges,
   handleMinFilterChanges,
   handleMaxFilterChanges,
-  ClearFilters,
-  quantityItems,
-  // QuantityItems,
-  IconCart,
-  handleClick,
-  
+  ClearFilters,  
 }) 
 {
   
   return (
     <ContainerFilter>
-        <Form>
+        <Form> <h1>Filtro</h1>
                 <InputFilter
                     type="text"
                     id="inputSearchFilter"
@@ -57,35 +47,8 @@ function Filters({
                     value={maxFilter}
                 />
                 <BtnClear onClick={(event) => ClearFilters(event)}>Limpar</BtnClear>
-            </Form>
-            <QuantityItems>
-                    {quantityItems === 0 ? (quantityItems = '') : quantityItems}
-                </QuantityItems>
-                {/* <Button onClick={(event) => {
-                        handleClick(event);
-                    }}>
-                     Adicionar Carrinho a direita
-                </Button> */}
+          </Form>
 
-
-
-
-      {/* <h1>
-        Filter
-      </h1>
-      <p>
-        Valor Mínimo:
-      </p>
-        <input type='Number'/>
-      <p>
-        Valor Máximo:
-      </p>
-      <input type='Number'/>
-      <p>
-        Busca Por Nome:
-      </p>
-      <input type='Text'/> */}
-      
     </ContainerFilter>
   )
 }
